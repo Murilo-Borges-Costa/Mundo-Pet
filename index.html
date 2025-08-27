@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mundo Pet - Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./imagens-aua4/favicon.png">
 </head>
 <body>
     <header>
+        <div class="container">
     <a href="index.html">
-<img src="./imagens-aua4/img-logo.png" alt="Logo Mundo Pet" title="Mundo Pet" width="200">
+<img src="./imagens-aua4/img-logo.png" id="logo" alt="Logo Mundo Pet" title="Mundo Pet" width="200">
     </a>
-    <nav>.
+    <nav id="menuPrincipal">.
 <ul>
 <li><a href="./index.html">Home</a></li>
 <li><a href="./sobre.html">Sobre</a></li>
@@ -19,35 +24,47 @@
 <li><a href="./contato.html">Contato</a></li>
 </ul>
 </nav>
+</div>
     </header>
+    <div class="container"></div>
     <section id="banner">
         <h1>Onde o seu pet encontra seu mundo perfeito!</h1>
     </section>
+    <section id="saiba-mais">
+    		<div class="container">
+	    		<p>“Bem-vindo ao nosso pet shop, um estabelecimento que há 10 anos vem encantando os amantes de animais em nossa comunidade…”</p>
+	    		<a href="./sobre.html">saiba mais</a>
+	    	</div>
+    	</section>
+    <div class="container"></div>
     <!-- Depoimentos -->
     <section id="depoimentos">
+        <div class="container">
         <h1>Depoimentos</h1>
-        <div>
+        <div class="box-depoimentos">
             <p>"Eles realmente se importam com o bem-estar dos animais. Meu cachorro adora ir lá para
 tomar banho e ficar cheiroso. Além disso, a equipe é super atenciosa, carinhosa e sempre
 oferece conselhos úteis para o dia a dia dos animais. Recomendo sempre a todos meus colegas e
 amigos !" <span>Ana Soares</span></p>
 <img src="./imagens-aua4/img-depoimento-ana.png" alt="Ana e seu cão">
 </div>
-<div>
+<div class="box-depoimentos">
 <p>"Estou extremamente satisfeito com os serviços prestados por este pet shop. Eles têm uma
 variedade incrível de produtos de alta qualidade e sempre me ajudam a encontrar o melhor
 alimento para meu gato exigente. Além disso, a tosa que fazem nele é impecável. Não troco
 esse lugar por nada!" <span>Pedro Rodrigues</span></p>
 <img src="./imagens-aua4/img-depoimento-pedro.png" alt="Pedro e seu cão">
         </div>
+        </div>
     </section>
     <!--Dicas  -->
     <section id="dicas">
+        <div class="container">
         <h1>Dicas</h1>
-        <div id="dicas-imagens">
+        <div id="box-dicas-imagens">
             <img src="./imagens-aua4/img-dicas.png" alt="Gatinho">
         </div>
-        <div id="dicas-texto">
+        <div id="box-dicas-texto">
             <h3>Veja 5 dicas essenciais para cuidar do seu pet com amor, saúde e segurança.</h1>
 <ul>
     <li>Alimentação equilibrada e adequada à espécie e porte do pet. </li>
@@ -58,23 +75,26 @@ covação e cuidado bucal. </li>
 <li>Ofereça amor e atenção diariamente, fortalecendo o vínculo. </li>
 </ul>
         </div>
+        </div>
     </section>
     <section id="newsletter">
         <h1>Newsletter</h1>
         <form>
             <input type="email" name="email" placeholder="Digite seu email">
-            <input type="submit" name="enviar" placeholder="Subscrever">
+            <input type="submit" name="enviar" placeholder="Subscrever" id="botao">
         </form>
     </section>
     <footer>
+        <div class="container">
         <p>Todos os direitos reservados &copy; 2025</p>
-        <div>
+        <div id="midiasSociais">
             <a href="https: //www.instagram.com/" target="_blank">
-<img src="imagens/icon-instagram.png" alt="Mídia social instagram MundoPet"> 
+<img src="imagens/icon-instagram.png" alt="Mídia social instagram MundoPet" width="35"> 
         </a>
  <a href="https: //wa.me/5533988776655"target="_blank">
-I <img src="imagens/icon-whatsapp.png" alt="Fale conosco pelo whatsapp">
+I <img src="imagens/icon-whatsapp.png" alt="Fale conosco pelo whatsapp" width="35">
  </a>
+        </div>
         </div>
     </footer>
 </body>
